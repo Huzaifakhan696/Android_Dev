@@ -1,0 +1,60 @@
+name: petscan
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.10+5
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.5+3
+  cupertino_icons: ^1.0.6
+  get: ^4.6.1
+  logger: ^2.3.0
+  flutter_stripe: ^10.1.1
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.5
+  jazzcash_flutter: ^1.0.5
+  dio: ^5.4.3+1
+  intl: ^0.19.0
+  file_picker: ^8.0.5
+  crypto: ^3.0.1
+  url_launcher: ^6.3.0
+  camera: ^0.10.5+9  # Correct dependency definition 
+  permission_handler: ^11.3.1
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  firebase_storage: ^11.7.7
+  universal_io: ^2.0.4
+  cloud_firestore: ^4.17.5
+  http: ^1.0.0
+  flutter_svg: ^1.1.4
+  fl_country_code_picker: ^0.0.2+1
+  pinput: ^2.2.12
+  geocoding: ^2.0.5
+  loading_animation_widget: ^1.2.1
+  flutter_credit_card: ^4.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/appback.png
+    - assets/pet_illustrator.png
+    - assets/Homepage_pets.png
+    - assets/pets/
+    - assets/food/
+    - assets/accessories/
+    - assets/recommendations/
+    - assets/profile_image.png
+   
